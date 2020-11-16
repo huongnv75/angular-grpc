@@ -1,0 +1,56 @@
+/*
+  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
+  It is not intended to be used to perform a compilation.
+
+  To learn more about this file see: https://angular.io/config/solution-tsconfig.
+*/
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/core/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/core/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/worker/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/worker/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/common/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/common/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/worker-client/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/worker-client/tsconfig.spec.json"
+    },
+    {
+      "path": "./examples/basic-example/tsconfig.app.json"
+    },
+    {
+      "path": "./examples/basic-example/tsconfig.spec.json"
+    },
+    {
+      "path": "./examples/worker-example/tsconfig.app.json"
+    },
+    {
+      "path": "./examples/worker-example/tsconfig.worker.json"
+    },
+    {
+      "path": "./examples/worker-example/tsconfig.spec.json"
+    },
+    {
+      "path": "./packages/grpc-web-client/tsconfig.lib.json"
+    },
+    {
+      "path": "./packages/grpc-web-client/tsconfig.spec.json"
+    }
+  ]
+}
